@@ -13,6 +13,8 @@ namespace TestExponent
             int x = 2;
             float y = 3.14F;
 
+            /* Just a basic comment for testing with git */
+
             float result = (float)Math.Pow(y, x);
 
             Console.WriteLine(String.Format("{0} raised to {1} power = {2}.", y, x, result));
